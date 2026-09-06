@@ -1144,7 +1144,7 @@
 
         if (Math.abs(scrollDelta) > 0.001) {
           const controlledDelta = Math.max(-32, Math.min(32, scrollDelta));
-          baklavaTargetRotation += controlledDelta * 0.085;
+          baklavaTargetRotation += controlledDelta * 0.12;
         }
 
         baklavaCurrentRotation += (baklavaTargetRotation - baklavaCurrentRotation) * 0.11;
